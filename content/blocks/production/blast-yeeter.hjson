@@ -1,6 +1,6 @@
 {
-  "name": "Phase Yeeter",
-  "description": "Convert coal into phase fabric. ",
+  "name": "Blast Yeeter",
+  "description": "Convert sand into blast compound. ",
   "type": "GenericCrafter",
   "drawer": {
     "type": "DrawMulti",
@@ -24,17 +24,17 @@
   "consumes": {
     "items": {
       "items": [
-        "coal/2"
+        "sand/2"
       ]
     }
   },
   "requirements": [
-    "lead/150",
-    "graphite/50"
+    "copper/75",
+    "silicon/25"
   ],
   "category": "crafting",
   "research": "silicon-crucible",
   "outputItems": [
-    "phase-fabric/2"
+    "blast-compound/2"
   ]
 }
