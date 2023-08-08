@@ -1,29 +1,40 @@
-type: DrawSmelter
-name: Blast Yeeter
-description: Yeets sand to synthesize blast compound.
-size: 3
-health: 130
-hasPower: false
-hasLiquids: false
-hasItems: true
-itemCapacity: 10
-craftTime: 85
-updateEffect: mineBig
-consumes: {
-  items: {
-    items: [
-      sand/2
+{
+  "name": "Phase Yeeter",
+  "description": "Convert coal into phase fabric. ",
+  "type": "GenericCrafter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefualt"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "BF92F9FF"
+      }
     ]
-  }
+  },
+  "size": 3,
+  "hasPower": false,
+  "hasItems": true,
+  "itemCapacity": 10,
+  "craftTime": 80,
+  "craftEffect": "sapExplosion",
+  "updateEffect": "none",
+  "consumes": {
+    "items": {
+      "items": [
+        "coal/2"
+      ]
+    }
+  },
+  "requirements": [
+    "lead/150",
+    "graphite/50"
+  ],
+  "category": "crafting",
+  "research": "silicon-crucible",
+  "outputItems": [
+    "phase-fabric/2"
+  ]
 }
-requirements: [
-  copper/75
-  silicon/25
-]
-outputItem: blast-compound/1
-category: crafting
-research: thorium-yeeter
-idleSound: respawning
-idleSoundVolume: 0.4
-activeSound: break
-activeSoundVolume: 0.1
