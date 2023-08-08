@@ -1,28 +1,39 @@
-type: DrawSmelter
-name: Surge Yeeter
-description: Yeets titanium to synthesize surge alloy.
-size: 3
-health: 150
-hasPower: false
-hasLiquids: false
-hasItems: true
-itemCapacity: 10
-craftTime: 90
-updateEffect: mineBig
-consumes: {
-  items: {
-    items: [
-      titanium/2
+{
+  "name": "Sruge Yeeter",
+  "description": "Convert titanium into surge alloy. ",
+  "type": "GenericCrafter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefualt"
+      },
+      {
+        "type": "DrawFlame",
+        "flameColor": "BF92F9FF"
+      }
     ]
-  }
+  },
+  "size": 3,
+  "hasPower": false,
+  "hasItems": true,
+  "itemCapacity": 10,
+  "craftTime": 80,
+  "craftEffect": "sapExplosion",
+  "updateEffect": "none",
+  "consumes": {
+    "items": {
+      "items": [
+        "copper/2"
+      ]
+    }
+  },
+  "requirements": [
+    "titanium/150"
+  ],
+  "category": "crafting",
+  "research": "silicon-crucible",
+  "outputItems": [
+    "surge-alloy/2"
+  ]
 }
-requirements: [
-  titanium/100
-]
-outputItem: surge-alloy/1
-category: crafting
-research: thorium-yeeter
-idleSound: respawning
-idleSoundVolume: 0.4
-activeSound: break
-activeSoundVolume: 0.1
