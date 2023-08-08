@@ -1,4 +1,5 @@
 {
+  name: "Thorium Yeeter"
   "type": "GenericCrafter",
   "drawer": {
     "type": "DrawMulti",
@@ -16,7 +17,7 @@
   "hasPower": false,
   "hasItems": true,
   "itemCapacity": 20,
-  "craftTime": 80,
+  "craftTime": 50,
   "craftEffect": "sapExplosion",
   "updateEffect": "none",
   "consumes": {
@@ -27,11 +28,11 @@
     }
   },
   "requirements": [
-    "copper/500"
+    "copper/150"
   ],
   "category": "crafting",
   "research": "silicon-crucible",
   "outputItems": [
-    "thorium/1"
+    "thorium/2"
   ]
 }
