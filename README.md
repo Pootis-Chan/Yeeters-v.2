@@ -1,3 +1,5 @@
+- THIS IS AN UPDATED VERSION FOR 145.1
+
 [![Yeeter Mod Logo](https://github.com/tcookiem/yeeter-mod/blob/master/logo.png)](https://github.com/tcookiem/yeeter-mod/wiki)  
 
 ## Features
